@@ -1,5 +1,5 @@
 # Space-timer
-![‏‏לכידה](https://user-images.githubusercontent.com/76179660/123538453-ac61ce80-d73d-11eb-84d4-78b3e68d097e.PNG)
+![‏‏לכידה](https://user-images.githubusercontent.com/76179660/123538494-d7e4b900-d73d-11eb-98d2-4b0e8b215c3f.PNG)
 
 You have five minutes to go to Mars, will you make it?
 
