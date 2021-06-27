@@ -1,0 +1,72 @@
+@-webkit-keyframes darkerRed {
+  from {
+    background: red;
+  }
+  to {
+    background: #c80000;
+  }
+}
+
+@keyframes darkerRed {
+  from {
+    background: red;
+  }
+  to {
+    background: #c80000;
+  }
+}
+
+.countdown {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.countdown span {
+  font-size: 1.4rem;
+}
+
+button {
+  background: red;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background: #c80000;
+  -webkit-animation: darkerRed 250ms ease-in-out;
+          animation: darkerRed 250ms ease-in-out;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 3.8rem;
+  height: 3.8rem;
+  padding: 15px;
+  margin: 5px;
+}
+/*# sourceMappingURL=countdown.css.map */

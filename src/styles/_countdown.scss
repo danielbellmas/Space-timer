@@ -1,0 +1,48 @@
+@keyframes darkerRed {
+  from {
+    background: red;
+  }
+  to {
+    background: rgb(200, 0, 0);
+  }
+}
+.countdown {
+  display: grid;
+  place-items: center;
+  span {
+    font-size: 1.4rem;
+  }
+}
+button {
+  background: red;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 10px;
+  border: none;
+  &:hover {
+    background: rgb(200, 0, 0);
+    animation: darkerRed 250ms ease-in-out;
+  }
+}
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 3.8rem;
+  height: 3.8rem;
+  padding: 15px;
+  margin: 5px;
+}

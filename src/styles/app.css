@@ -1,0 +1,118 @@
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px) translateX(0px);
+            transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    -webkit-transform: translatey(20px) translateX(-20px);
+            transform: translatey(20px) translateX(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px) translateX(0px);
+            transform: translatey(0px) translateX(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px) translateX(0px);
+            transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    -webkit-transform: translatey(20px) translateX(-20px);
+            transform: translatey(20px) translateX(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px) translateX(0px);
+            transform: translatey(0px) translateX(0px);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Pattaya", sans-serif;
+  color: white;
+}
+
+.app {
+  background-image: url("./assets/background.svg");
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+}
+
+.rocket {
+  place-self: center;
+  width: 150px;
+  margin-top: 20px;
+  -webkit-animation: float 3s infinite ease-in-out;
+          animation: float 3s infinite ease-in-out;
+}
+
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.hero {
+  width: 250px;
+  height: auto;
+}
+
+.title {
+  place-self: center;
+  max-width: 500px;
+}
+
+.title h1 {
+  color: lightskyblue;
+  font-size: 3rem;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
+.countdowns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 950px) {
+  .app {
+    height: auto;
+  }
+  .header-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .countdowns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=app.css.map */
