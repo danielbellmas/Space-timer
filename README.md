@@ -1,4 +1,6 @@
-# Empty_Exam
+# Space-timer
+
+You have five minutes to go to Mars, will you make it?
 
 ## Installation
 
