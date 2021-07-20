@@ -5,10 +5,10 @@ You have five minutes to go to Mars, will you make it?
 
 ## Installation
 
-Install my-project with npm
+Install Space-timer with npm
 
 ```bash
-  npm install my-project
-  cd my-project
+  npm install space-timer
+  cd space-timer
   npm start
 ```
