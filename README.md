@@ -8,7 +8,8 @@ You have five minutes to go to Mars, will you make it?
 Install Space-timer with npm
 
 ```bash
-  npm install space-timer
+  git clone https://github.com/danielbellmas/Space-timer.git
   cd space-timer
+  npm install
   npm start
 ```
